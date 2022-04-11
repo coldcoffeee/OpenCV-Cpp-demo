@@ -27,4 +27,10 @@ void main()
 	//we open each image in  a while loop
 	string path = "Resources/test_video.mp4";
 	VideoCapture cap(path);
+	Mat img;
+	while (true)
+	{
+		cap.read(img);
+		waitKey(1);
+	}
 }

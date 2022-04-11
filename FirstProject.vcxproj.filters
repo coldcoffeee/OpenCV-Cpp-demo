@@ -32,6 +32,6 @@
     <Xml Include="Resources\haarcascade_russian_plate_number.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Media Include="Resources\test.mp4" />
+    <Media Include="Resources\test_video.mp4" />
   </ItemGroup>
 </Project>
