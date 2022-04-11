@@ -30,7 +30,8 @@ void main()
 	Mat img;
 	while (true)
 	{
-		cap.read(img);
+		cap.read(img);//read each frame from cap into img
+		imshow("Image", img);
 		waitKey(1);
 	}
 }
